@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>訂餐系統</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="dropdowns">
+                <input list="employee-id-options" id="employee-id" placeholder="工號">
+                <datalist id="employee-id-options">
+                    <option value="1000">1000</option>
+<option value="10007267">10007267</option>
+<option value="10006727">10006727</option>
+<option value="1000">1000</option>
+<option value="10006294">10006294</option>
+<option value="1000">1000</option>
+<option value="10007115">10007115</option>
+<option value="10007729">10007729</option>
+<option value="10007540">10007540</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="10007405">10007405</option>
+<option value="10007356">10007356</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="10007552">10007552</option>
+<option value="10007359">10007359</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="10007589">10007589</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="10007273">10007273</option>
+<option value="10007689">10007689</option>
+<option value="1000">1000</option>
+<option value="10007655">10007655</option>
+<option value="0">0</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="10005970">10005970</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="1000">1000</option>
+<option value="10004214">10004214</option>
+                </datalist>
+                <input list="employee-name-options" id="employee-name" placeholder="姓名(英文名)">
+                <datalist id="employee-name-options">
+                    <option value="張朝森(Chaosen)">張朝森(Chaosen)</option>
+<option value="詹承源(Alan)">詹承源(Alan)</option>
+<option value="李岳剛(Lucker)">李岳剛(Lucker)</option>
+<option value="楊詩婷(Jenny)">楊詩婷(Jenny)</option>
+<option value="游慧珊(Irene)">游慧珊(Irene)</option>
+<option value="黃安均(Angel)">黃安均(Angel)</option>
+<option value="陳彥竹(Nora)">陳彥竹(Nora)</option>
+<option value="李嘉鴻(Jim)">李嘉鴻(Jim)</option>
+<option value="呂文翔(James)">呂文翔(James)</option>
+<option value="凃慶昇(Ryan T)">凃慶昇(Ryan T)</option>
+<option value="彭柏勲(Shung)">彭柏勲(Shung)</option>
+<option value="池昀蓁(Andy)">池昀蓁(Andy)</option>
+<option value="郭家榮(Ryan K)">郭家榮(Ryan K)</option>
+<option value="劉庭彰(Steven S)">劉庭彰(Steven S)</option>
+<option value="何佳馨(Chloe)">何佳馨(Chloe)</option>
+<option value="蔡繼慶(JC)">蔡繼慶(JC)</option>
+<option value="廖悅馨(Linda)">廖悅馨(Linda)</option>
+<option value="鄭嘉文(Alley)">鄭嘉文(Alley)</option>
+<option value="張淑真(Lisa)">張淑真(Lisa)</option>
+<option value="張詠翔(Shiang)">張詠翔(Shiang)</option>
+<option value="吳唸督(Ben)">吳唸督(Ben)</option>
+<option value="吳孟杰(Jay)">吳孟杰(Jay)</option>
+<option value="張凱昕(Katy)">張凱昕(Katy)</option>
+<option value="張柏凱(Bokai)">張柏凱(Bokai)</option>
+<option value="吳嘉殷(Steven)">吳嘉殷(Steven)</option>
+<option value="林亞辰(Rosie)">林亞辰(Rosie)</option>
+<option value="申家蓉(Dori)">申家蓉(Dori)</option>
+<option value="蔡明瑾(Myra)">蔡明瑾(Myra)</option>
+<option value="呂岱樺(Donna)">呂岱樺(Donna)</option>
+<option value="康傑翔(nan)">康傑翔(nan)</option>
+<option value="謝沛圻(Peggy)">謝沛圻(Peggy)</option>
+<option value="趙昱璇(Esther)">趙昱璇(Esther)</option>
+<option value="吳思賢(Daniel)">吳思賢(Daniel)</option>
+<option value="葉哲旭(Wayne)">葉哲旭(Wayne)</option>
+<option value="郭亮吟(Candy)">郭亮吟(Candy)</option>
+<option value="劉曉盈(Katherine)">劉曉盈(Katherine)</option>
+<option value="范馨方(Maggie)">范馨方(Maggie)</option>
+<option value="張鈺君(Eva)">張鈺君(Eva)</option>
+<option value="汪宗樺(Arthur)">汪宗樺(Arthur)</option>
+<option value="葉 挺(Adoru)">葉 挺(Adoru)</option>
+<option value="劉育志(Brain)">劉育志(Brain)</option>
+<option value="魏聖航(David)">魏聖航(David)</option>
+                </datalist>
+                <input list="meal-options" id="meal" placeholder="餐點">
+                <datalist id="meal-options">
+                    <!-- Options here -->
+                </datalist>
+                <input list="customization-options" id="customization" placeholder="客製化">
+                <datalist id="customization-options">
+                    <!-- Options here -->
+                </datalist>
+                <button id="customize-button">新增/修改</button>
+            </div>
+            <div class="images">
+                <div class="image-container" id="sponsor-image">
+                    <img src="placeholder.jpg" alt="請上傳金主">
+                </div>
+                <div class="image-container" id="menu-image">
+                    <img src="placeholder.jpg" alt="請上傳菜單">
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <table id="orders-table">
+                <thead>
+                    <tr>
+                        <th>工號</th>
+                        <th>姓名</th>
+                        <th>餐點</th>
+                        <th>客製化</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Order rows will be added here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+        // 將 JSON 資料嵌入到 JavaScript 中
+        const employeeData = [{"姓名": "張朝森", "英文名": "Chaosen", "工號": 1000, "座位": "2F"}, {"姓名": "詹承源", "英文名": "Alan", "工號": 10007267, "座位": "2F"}, {"姓名": "李岳剛", "英文名": "Lucker", "工號": 10006727, "座位": "2F"}, {"姓名": "楊詩婷", "英文名": "Jenny", "工號": 1000, "座位": "2F"}, {"姓名": "游慧珊", "英文名": "Irene", "工號": 10006294, "座位": "2F"}, {"姓名": "黃安均", "英文名": "Angel", "工號": 1000, "座位": "2F"}, {"姓名": "陳彥竹", "英文名": "Nora", "工號": 10007115, "座位": "2F"}, {"姓名": "李嘉鴻", "英文名": "Jim", "工號": 10007729, "座位": "2F"}, {"姓名": "呂文翔", "英文名": "James", "工號": 10007540, "座位": "2F"}, {"姓名": "凃慶昇", "英文名": "Ryan T", "工號": 1000, "座位": "2F"}, {"姓名": "彭柏勲", "英文名": "Shung", "工號": 1000, "座位": "2F"}, {"姓名": "池昀蓁", "英文名": "Andy", "工號": 10007405, "座位": "2F"}, {"姓名": "郭家榮", "英文名": "Ryan K", "工號": 10007356, "座位": "2F"}, {"姓名": "劉庭彰", "英文名": "Steven S", "工號": 1000, "座位": "7F"}, {"姓名": "何佳馨", "英文名": "Chloe", "工號": 1000, "座位": "7F"}, {"姓名": "蔡繼慶", "英文名": "JC", "工號": 1000, "座位": "7F"}, {"姓名": "廖悅馨", "英文名": "Linda", "工號": 1000, "座位": "7F"}, {"姓名": "鄭嘉文", "英文名": "Alley", "工號": 10007552, "座位": "7F"}, {"姓名": "張淑真", "英文名": "Lisa", "工號": 10007359, "座位": "7F"}, {"姓名": "張詠翔", "英文名": "Shiang", "工號": 1000, "座位": "7F"}, {"姓名": "吳唸督", "英文名": "Ben", "工號": 1000, "座位": "7F"}, {"姓名": "吳孟杰", "英文名": "Jay", "工號": 1000, "座位": "7F"}, {"姓名": "張凱昕", "英文名": "Katy", "工號": 1000, "座位": "7F"}, {"姓名": "張柏凱", "英文名": "Bokai", "工號": 1000, "座位": "7F"}, {"姓名": "吳嘉殷", "英文名": "Steven", "工號": 1000, "座位": "7F"}, {"姓名": "林亞辰", "英文名": "Rosie", "工號": 1000, "座位": "7F"}, {"姓名": "申家蓉", "英文名": "Dori", "工號": 10007589, "座位": "7F"}, {"姓名": "蔡明瑾", "英文名": "Myra", "工號": 1000, "座位": "7F"}, {"姓名": "呂岱樺", "英文名": "Donna", "工號": 1000, "座位": "7F"}, {"姓名": "康傑翔", "英文名": NaN, "工號": 1000, "座位": "7F"}, {"姓名": "謝沛圻", "英文名": "Peggy", "工號": 10007273, "座位": "7F"}, {"姓名": "趙昱璇", "英文名": "Esther", "工號": 10007689, "座位": "7F"}, {"姓名": "吳思賢", "英文名": "Daniel", "工號": 1000, "座位": "7F"}, {"姓名": "葉哲旭", "英文名": "Wayne", "工號": 10007655, "座位": "7F"}, {"姓名": "郭亮吟", "英文名": "Candy", "工號": 0, "座位": "7F"}, {"姓名": "劉曉盈", "英文名": "Katherine", "工號": 1000, "座位": "7F"}, {"姓名": "范馨方", "英文名": "Maggie", "工號": 1000, "座位": "7F"}, {"姓名": "張鈺君", "英文名": "Eva", "工號": 10005970, "座位": "7F"}, {"姓名": "汪宗樺", "英文名": "Arthur", "工號": 1000, "座位": "7F"}, {"姓名": "葉 挺", "英文名": "Adoru", "工號": 1000, "座位": "7F"}, {"姓名": "劉育志", "英文名": "Brain", "工號": 1000, "座位": "7F"}, {"姓名": "魏聖航", "英文名": "David", "工號": 10004214, "座位": "7F"}];
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
